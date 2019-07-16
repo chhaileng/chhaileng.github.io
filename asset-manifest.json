@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a83b132e.chunk.css",
+    "main.js": "/static/js/main.d8ad5939.chunk.js",
+    "main.js.map": "/static/js/main.d8ad5939.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.127c0c4b.chunk.js": "/static/js/2.127c0c4b.chunk.js",
+    "static/js/2.127c0c4b.chunk.js.map": "/static/js/2.127c0c4b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.97a802c452a45ca2d5a452ccbd3aa78c.js": "/precache-manifest.97a802c452a45ca2d5a452ccbd3aa78c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a83b132e.chunk.css.map": "/static/css/main.a83b132e.chunk.css.map",
+    "static/media/barcamp_2015.jpg": "/static/media/barcamp_2015.47dd706b.jpg",
+    "static/media/barcamp_2016.jpg": "/static/media/barcamp_2016.10831850.jpg",
+    "static/media/barcamp_2017.jpg": "/static/media/barcamp_2017.d88b1938.jpg",
+    "static/media/defense_talk.jpg": "/static/media/defense_talk.daeb6bbe.jpg",
+    "static/media/khnog.jpg": "/static/media/khnog.e603fa42.jpg",
+    "static/media/me.jpg": "/static/media/me.ed41484b.jpg",
+    "static/media/more.jpg": "/static/media/more.3daf48ff.jpg"
+  }
+}
