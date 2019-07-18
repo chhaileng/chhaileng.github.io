@@ -1,27 +1,6 @@
 import React, { Component } from 'react';
-import me from '../images/me.jpg';
-import axios from 'axios';
 
 export default class VCard extends Component {
-
-    constructor() {
-        super()
-        this.state = {
-            profile: me
-        }
-    }
-
-    componentDidMount() {
-        axios.get('https://graph.facebook.com/100004619404186/picture?width=1000&height=1000&redirect=false').then((res) => {
-            this.setState({profile: res.data.data.url})
-            var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
-            link.type = 'image/x-icon';
-            link.rel = 'shortcut icon';
-            link.href = res.data.data.url;
-            document.getElementsByTagName('head')[0].appendChild(link);
-        });
-    }
-
     render() {
         return (
             <div id='v-card-holder' className='section'>
@@ -30,7 +9,7 @@ export default class VCard extends Component {
                         <div className='col-md-12 col-sm-12 col-xs-12'>
                             <div id='v-card' className='card'>
                                 <div id='profile' className='right'>
-                                    <img alt='profile' className='img-responsive' src={this.state.profile}/>
+                                    <img alt='profile' className='img-responsive' src={this.props.profile}/>
                                     <div className='slant'></div>
                                     <a href='https://github.com/chhaileng?tab=repositories' target='_blank' rel='noopener noreferrer' className='btn-floating btn-large profile-btn'><i className='material-icons'>code</i></a>
                                 </div>

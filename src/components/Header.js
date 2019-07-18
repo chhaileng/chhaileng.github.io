@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import me from '../images/me.jpg';
 
 export default class Header extends Component {
     render() {
@@ -8,7 +7,7 @@ export default class Header extends Component {
                 <nav id='theMenu' className='menu'>
                     <div id='menu-options' className='menu-wrap'>
                         <div className='logo-flat'>
-                            <img alt='profile' className='img-responsive' style={{borderRadius: '50%'}} src={me}/>
+                            <img alt='profile' className='img-responsive' style={{borderRadius: '50%'}} src={this.props.profile}/>
                         </div>
                         <br/>
                         <a href='#home'><i className='title-icon fa fa-user'></i>Home</a>

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import axios from 'axios';
+import me from './images/me.jpg';
 
 import './css/style.css';
 
@@ -16,12 +18,30 @@ import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 
 export default class Main extends Component {
+    constructor() {
+        super()
+        this.state = {
+            profile: me
+        }
+    }
+
+    componentDidMount() {
+        axios.get('https://graph.facebook.com/100004619404186/picture?width=1000&height=1000&redirect=false').then((res) => {
+            this.setState({profile: res.data.data.url})
+            var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+            link.type = 'image/x-icon';
+            link.rel = 'shortcut icon';
+            link.href = res.data.data.url;
+            document.getElementsByTagName('head')[0].appendChild(link);
+        });
+    }
+
     render() {
         return (
             <div>
                 <PreLoader/>
-                <Header/>
-                <VCard/>
+                <Header profile={this.state.profile}/>
+                <VCard profile={this.state.profile}/>
                 <About/>
                 <Blog/>
                 <Educuation/>
