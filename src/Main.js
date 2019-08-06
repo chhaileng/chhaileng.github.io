@@ -34,6 +34,11 @@ export default class Main extends Component {
             link.href = res.data.data.url;
             document.getElementsByTagName('head')[0].appendChild(link);
         });
+
+        // Analytic
+        setTimeout(function() {
+            axios.post('https://xd-analytics.herokuapp.com/analytics')
+        }, 5000);
     }
 
     render() {
