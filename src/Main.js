@@ -36,9 +36,7 @@ export default class Main extends Component {
         });
 
         // Analytic
-        setTimeout(function() {
-            axios.post('https://xd-analytics.herokuapp.com/analytics')
-        }, 5000);
+        axios.post('https://xd-analytics.herokuapp.com/api/visitor')
     }
 
     render() {
