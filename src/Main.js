@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import me from './images/me.jpg';
+import me from './images/icon_memoji.png';
 
 import './css/style.css';
 
@@ -28,15 +28,17 @@ export default class Main extends Component {
     componentDidMount() {
         axios.get('https://graph.facebook.com/100004619404186/picture?width=1000&height=1000&redirect=false').then((res) => {
             this.setState({profile: res.data.data.url})
-            var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
-            link.type = 'image/x-icon';
-            link.rel = 'shortcut icon';
-            link.href = res.data.data.url;
-            document.getElementsByTagName('head')[0].appendChild(link);
+            
+            // // Dynamic site icon
+            // var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+            // link.type = 'image/x-icon';
+            // link.rel = 'shortcut icon';
+            // link.href = res.data.data.url;
+            // document.getElementsByTagName('head')[0].appendChild(link);
         });
 
-        // Analytic
-        axios.post('https://xd-analytics.herokuapp.com/api/visitor')
+        // // Analytic
+        // axios.post('https://xd-analytics.herokuapp.com/api/visitor')
     }
 
     render() {
