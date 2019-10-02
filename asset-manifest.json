@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.a83b132e.chunk.css",
-    "main.js": "/static/js/main.02a34295.chunk.js",
-    "main.js.map": "/static/js/main.02a34295.chunk.js.map",
+    "main.js": "/static/js/main.ef72b493.chunk.js",
+    "main.js.map": "/static/js/main.ef72b493.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.1938d45c.chunk.js": "/static/js/2.1938d45c.chunk.js",
     "static/js/2.1938d45c.chunk.js.map": "/static/js/2.1938d45c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.97701f03a4d13bb02490dba23ff1823e.js": "/precache-manifest.97701f03a4d13bb02490dba23ff1823e.js",
+    "precache-manifest.094f9f2f1a82a331089b40883b857298.js": "/precache-manifest.094f9f2f1a82a331089b40883b857298.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.a83b132e.chunk.css.map": "/static/css/main.a83b132e.chunk.css.map",
     "static/media/barcamp_2015.jpg": "/static/media/barcamp_2015.47dd706b.jpg",
     "static/media/barcamp_2016.jpg": "/static/media/barcamp_2016.10831850.jpg",
     "static/media/barcamp_2017.jpg": "/static/media/barcamp_2017.d88b1938.jpg",
     "static/media/defense_talk.jpg": "/static/media/defense_talk.daeb6bbe.jpg",
+    "static/media/icon_memoji.png": "/static/media/icon_memoji.71af304a.png",
     "static/media/khnog.jpg": "/static/media/khnog.e603fa42.jpg",
-    "static/media/me.jpg": "/static/media/me.ed41484b.jpg",
     "static/media/more.jpg": "/static/media/more.3daf48ff.jpg"
   }
 }

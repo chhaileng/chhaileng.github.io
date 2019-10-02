@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab0c286539f1088b7c296f9825aff2ae",
+    "revision": "79f2341d37b6cd4eac07b713b0e2bd60",
     "url": "/index.html"
   },
   {
-    "revision": "537061fdfb49e7d7f5da",
+    "revision": "0502ddb0e3906512fde8",
     "url": "/static/css/main.a83b132e.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.1938d45c.chunk.js"
   },
   {
-    "revision": "537061fdfb49e7d7f5da",
-    "url": "/static/js/main.02a34295.chunk.js"
+    "revision": "0502ddb0e3906512fde8",
+    "url": "/static/js/main.ef72b493.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -36,12 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/defense_talk.daeb6bbe.jpg"
   },
   {
-    "revision": "e603fa4268b3546606b2ee87ed3b254e",
-    "url": "/static/media/khnog.e603fa42.jpg"
+    "revision": "71af304a5b416a890e40dc72475a2788",
+    "url": "/static/media/icon_memoji.71af304a.png"
   },
   {
-    "revision": "ed41484b706c5f8fba4af19aa2dd62b1",
-    "url": "/static/media/me.ed41484b.jpg"
+    "revision": "e603fa4268b3546606b2ee87ed3b254e",
+    "url": "/static/media/khnog.e603fa42.jpg"
   },
   {
     "revision": "3daf48ffdfa429032b831b2fc8d0fa12",
