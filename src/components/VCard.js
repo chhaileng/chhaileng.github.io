@@ -39,7 +39,7 @@ export default class VCard extends Component {
 
                                     <div className='links'>
                                         <a href='https://www.facebook.com/ChhailengPeng' target='_blank' rel='noopener noreferrer' className='social btn-floating indigo'><i className='fa fa-facebook'></i></a>
-                                        <a href='https://www.instagram.com/chhailengpeng' target='_blank' rel='noopener noreferrer' className='social btn-floating' style={{backgroundColor: '#E91E63'}}><i className='fa fa-instagram'></i></a>
+                                        <a href='https://www.instagram.com/chhaileng.js' target='_blank' rel='noopener noreferrer' className='social btn-floating' style={{backgroundColor: '#E91E63'}}><i className='fa fa-instagram'></i></a>
                                         <a href='https://www.twitter.com/ChhailengPeng' target='_blank' rel='noopener noreferrer' className='social btn-floating blue'><i className='fa fa-twitter'></i></a>
                                         <a href='https://www.linkedin.com/in/chhailengpeng' target='_blank' rel='noopener noreferrer' className='social btn-floating blue darken-3'><i className='fa fa-linkedin'></i></a>
                                         <a href='https://github.com/chhaileng' target='_blank' rel='noopener noreferrer' className='social btn-floating' style={{backgroundColor: '#3f4449'}}><i className='fa fa-github'></i></a>
