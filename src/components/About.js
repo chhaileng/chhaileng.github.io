@@ -10,19 +10,19 @@ export default class About extends Component {
                             <div id='about-card' className='card'>
                                 <div className='card-content'>
                                     <p>
-                                        Hi there, my name is Chhaileng. I am a software developer. I have some experience 
+                                        Hi there, my name is Chhaileng. I am a software developer. I have some experience
                                         in developing web application, application programming interface (API), mobile application.
-                                        I also have some experience with cyber security and used to participate in 
-                                        web application penetration testing too. Currently, 
-                                        I am researching on Blockchain technology based on Hyperledger 
+                                        I also have some experience with cyber security and used to participate in
+                                        web application penetration testing too. Currently,
+                                        I am researching on Blockchain technology based on Hyperledger
                                         and also Big Data platform development.
-                                        <br/><br/>Feel free to contact me. Thank you ^^
+                                        <br /><br />Feel free to contact me. Thank you ^^
                                     </p>
                                 </div>
 
                                 <div id='about-btn' className='card-action'>
                                     <div className='about-btn'>
-                                        <a href='https://www.facebook.com/ChhailengPeng' target='_blank' rel='noopener noreferrer' className='btn waves-effect'>Contact Me</a>
+                                        <a href='mailto:contact@chhaileng.com' target='_blank' rel='noopener noreferrer' className='btn waves-effect'>Contact Me</a>
                                     </div>
                                 </div>
                             </div>
