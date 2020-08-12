@@ -61,7 +61,7 @@ export default class Educuation extends Component {
                                     <hr />
                                     <div className='timeline-info'>
                                         <h6><small><i className='small material-icons'>place</i> Fujian, China</small></h6>
-                                        <h6><small><i><i className='small material-icons'>event</i> 2014</i></small></h6>
+                                        <h6><small><i><i className='small material-icons'>event</i> 2016</i></small></h6>
                                     </div>
                                 </div>
                             </div>
