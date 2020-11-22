@@ -17,6 +17,8 @@ import ResearchInterest from './components/ResearchInterest';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 
+import img from './images/me.jpg'
+
 export default class Main extends Component {
     constructor() {
         super()
@@ -27,8 +29,8 @@ export default class Main extends Component {
 
     componentDidMount() {
         axios.get('https://graph.facebook.com/100004619404186/picture?width=1000&height=1000&redirect=false').then((res) => {
-            this.setState({profile: res.data.data.url})
-            
+            this.setState({ profile: res.data.data.url })
+
             // // Dynamic site icon
             // var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
             // link.type = 'image/x-icon';
@@ -44,18 +46,18 @@ export default class Main extends Component {
     render() {
         return (
             <div>
-                <PreLoader/>
-                <Header profile={this.state.profile}/>
-                <VCard profile={this.state.profile}/>
-                <About/>
-                <Blog/>
-                <Educuation/>
+                <PreLoader />
+                <Header profile={img} />
+                <VCard profile={img} />
+                <About />
+                <Blog />
+                <Educuation />
                 {/* <Skills/> */}
-                <Experience/>
-                <Contributions/>
-                <ResearchInterest/>
-                <ScrollToTop/>
-                <Footer/>
+                <Experience />
+                <Contributions />
+                <ResearchInterest />
+                <ScrollToTop />
+                <Footer />
             </div>
         );
     }

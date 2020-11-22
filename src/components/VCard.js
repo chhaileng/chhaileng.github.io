@@ -24,7 +24,7 @@ export default class VCard extends Component {
                                         <ul className='profile-list'>
                                             <li className='clearfix'>
                                                 <span className='title'><i className='material-icons'>email</i></span>
-                                                <span className='content'>contact@chhaileng.com</span>
+                                                <span className='content'><a href="mailto:hello@chhaileng.com">hello@chhaileng.com</a></span>
                                             </li>
                                             <li className='clearfix'>
                                                 <span className='title'><i className='material-icons'>language</i></span>
