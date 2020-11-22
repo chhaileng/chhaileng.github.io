@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.a83b132e.chunk.css",
-    "main.js": "/static/js/main.52d3af7d.chunk.js",
-    "main.js.map": "/static/js/main.52d3af7d.chunk.js.map",
+    "main.js": "/static/js/main.07473730.chunk.js",
+    "main.js.map": "/static/js/main.07473730.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.1938d45c.chunk.js": "/static/js/2.1938d45c.chunk.js",
-    "static/js/2.1938d45c.chunk.js.map": "/static/js/2.1938d45c.chunk.js.map",
+    "static/js/2.3a6728e2.chunk.js": "/static/js/2.3a6728e2.chunk.js",
+    "static/js/2.3a6728e2.chunk.js.map": "/static/js/2.3a6728e2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.789109cf50b5566ae8126a7ec5e6af44.js": "/precache-manifest.789109cf50b5566ae8126a7ec5e6af44.js",
+    "precache-manifest.7166031cf1c5e91b9d2c02b6739a9271.js": "/precache-manifest.7166031cf1c5e91b9d2c02b6739a9271.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.a83b132e.chunk.css.map": "/static/css/main.a83b132e.chunk.css.map",
     "static/media/barcamp_2015.jpg": "/static/media/barcamp_2015.47dd706b.jpg",
@@ -17,6 +17,7 @@
     "static/media/defense_talk.jpg": "/static/media/defense_talk.daeb6bbe.jpg",
     "static/media/icon_memoji.png": "/static/media/icon_memoji.71af304a.png",
     "static/media/khnog.jpg": "/static/media/khnog.e603fa42.jpg",
+    "static/media/me.jpg": "/static/media/me.3edbe5ed.jpg",
     "static/media/more.jpg": "/static/media/more.3daf48ff.jpg"
   }
 }
